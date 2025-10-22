@@ -1,4 +1,4 @@
-# This resource will destroy (potentially immediately) after null_resource.next yes
+# This resource will destroy (potentially immediately) after null_resource.next
 resource "null_resource" "previous" {}
 
 resource "time_sleep" "wait_30_seconds" {
